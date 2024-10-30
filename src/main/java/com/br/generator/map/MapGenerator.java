@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class MapGenerator {
 
-    private static final File SCHEMATIC_FOLDER = new File("plugins/YourPluginName/schematics");
+    private static final File SCHEMATIC_FOLDER = new File("C:\Users\GabrielMartins\Documents\schematics");
     private static final Logger LOGGER = Bukkit.getLogger();
 
     public static void generateMap(String schematicName, World world, Location location, boolean noAir) {
